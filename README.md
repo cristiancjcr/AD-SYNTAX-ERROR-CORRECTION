@@ -47,7 +47,9 @@ Un exemplu testat de mine ar fi pentru lungimea 4, selectând apoi opțiunea 'co
 ## Utilizare
 Pentru a utiliza acest program, rog descărcarea într-un folder a fișierelor cu numele: **"TEMA_PA.cbp", "TEMA_PA.depend", "TEMA_PA.layout", "main.c", "word_selector.c", "word_selector.h"** (pentru limbaj C). 
 
-Pentru rularea corectă a programului, trebuie deschis fișierul cu numele **"TEMA_PA.cbp"** ce va deschide întregul program gata de rulat/testat. Programul va solicita mai întâi introducerea lungimii dorite pentru cuvintele pe care doriți să le testați. Programul va afișa o listă generată ce îndeplinește cerința (lungimea N / ex: 5). 
+Pentru rularea corectă a programului, trebuie deschis fișierul cu numele **"TEMA_PA.cbp"** ce va deschide întregul program gata de rulat/testat. În caz contrar, deschideți mai întâi **"main.c"**, apoi **"word_selector.c"** urmat de **"word_selector.h"**. 
+
+Programul va solicita mai întâi introducerea lungimii dorite pentru cuvintele pe care doriți să le testați. Programul va afișa o listă generată ce îndeplinește cerința (lungimea N / ex: 5). 
 
 O să fiți rugat să alegeți una din opțiunile afișate, prin scrierea la tastatură a opțiunii alese (ex: *'func(lemon)'*). Programul va cere apoi să introduceți la tastatură o variantă 'greșită' a opțiunii alese anterior (ex: *'func(lebron'*). După introducerea datelor, programul va afișa numărul minim de operații pentru a transforma varianta 'greșită' în varianta 'corectă' (ex: *3*).
 
