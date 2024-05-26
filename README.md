@@ -27,7 +27,7 @@ Scopul final este de a ajunge la un fragment de cod care respectă regulile de s
 ## Exemplu, idei & soluții
 Un exemplu clar este chiar cel din enunț, ce prezintă inversarea și apoi inserția unor caractere pentru ca la final să obținem varianta corectă.
 
-Pentru verificarea corectitudinii codului, exemplele ce se pot verifica sunt la alegerea utilizatorului fiind restricționat doar de lungimea cuvintelor, ce trebuie să fie mai mari sau egale cu 2 (ex. eu, tu, up, go ..șamd) putând ca un exemplu să ajungă și la 10 / 11 litere pentru verificare (experiment, decizional, perspective). Dar fi atent ! Orice cuvânt ce are o lungime mai mare devine mai greu de inspectat de utilizator care nu poate verifica în totalitate corectitudinea programului.
+Pentru verificarea corectitudinii codului, exemplele ce se pot verifica sunt la alegerea utilizatorului fiind restricționat doar de lungimea cuvintelor, ce trebuie să fie mai mari sau egale cu 2 (ex: eu, tu, up, go ..șamd) putând ca un exemplu să ajungă și la 10 / 11 litere pentru verificare (ex: experiment, decizional, perspective). Dar fi atent ! Orice cuvânt ce are o lungime mai mare devine mai greu de inspectat de utilizator care nu poate verifica în totalitate corectitudinea programului.
 
 Pentru a reusi sa ducem la bun sfarsit un astfel de program am folosit 3 functii principale :
 
