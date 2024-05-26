@@ -22,14 +22,28 @@ Pentru a realiza acest lucru, algoritmul nostru va trebui să compare fragmentul
 
 Scopul final este de a ajunge la un fragment de cod care respectă regulile de sintaxă, folosind cel mai mic număr posibil de operații. Acest lucru va asigura că fragmentul de cod corectat este funcțional și poate fi folosit corespunzător în cadrul limbajului de programare dat. Prin abordarea acestei probleme, ne propunem să dezvoltăm un algoritm eficient și precis, care să faciliteze procesul de corectare a erorilor de sintaxă din codul sursă, contribuind astfel la îmbunătățirea calității și eficienței dezvoltării software.
 
-## Exemplu
+## Exemplu, idei & soluții
+Un exemplu clar este chiar cel din enunț, ce prezintă inversarea și apoi inserția unor caractere pentru ca la final să obținem varianta corectă.
 
+Pentru verificarea corectitudinii codului, exemplele ce se pot verifica sunt la alegerea utilizatorului fiind restricționat doar de lungimea cuvintelor, ce trebuie să fie mai mari sau egale cu 2 (ex. eu, tu, up, go ..șamd) putând ca un exemplu să ajungă și la 10 / 11 litere pentru verificare (experiment, decizional, perspective). Dar fi atent ! Orice cuvânt ce are o lungime mai mare devine mai greu de inspectat de utilizator care nu poate verifica în totalitate corectitudinea programului.
+
+Pentru a reusi sa ducem la bun sfarsit un astfel de program am folosit 3 functii principale :
+
+select_words(num_letters) <-> levenshtein_distance(s1, s2) <-> main( ). 
+
+Funcția select_words(num_letters) afișează utilizatorului o listă de cuvinte din care acesta poate alege, acele cuvinte având o anumită lungime specificată de num_letters. Cu toate că funcția nu întoarce nimic, ea afișează lista de cuvinte care corespund criteriului de lungime.
+
+Funcția levenshtein_distance(s1, s2) implementează algoritmul de distanță Levenshtein între două șiruri de caractere s1 și s2. Această distanță reprezintă numărul minim de operații (inserare, ștergere sau înlocuire a unui singur caracter) necesare pentru a transforma un șir în celălalt. Algoritmul funcționează prin utilizarea unei matrice pentru a calcula costurile transformărilor și găsirea căii cu cel mai mic cost.
+
+Funcția main() este punctul de intrare în program și gestionează interacțiunea cu utilizatorul. În primul rând, solicită utilizatorului să introducă numărul dorit de litere pentru cuvânt. Apoi, afișează cuvintele disponibile de acea lungime. Utilizatorul este rugat să introducă cuvântul ales și o versiune incorectă a acelui cuvânt. Apoi, calculează și afișează distanța Levenshtein dintre cele două cuvinte introduse.
+
+În esență, acest cod permite utilizatorului să exploreze conceptul de distanță Levenshtein, care este util în diverse domenii, cum ar fi corectarea ortografică, recunoașterea vocală și bioinformatică.
 
 ## Utilizare
 Pentru a utiliza acest cod.
 
 ## Contribuții
-Contribuțiile sunt binevenite ! Dacă aveți sugestii de îmbunătățire a codului sau a documentației, vă rugăm să trimiteți un pull request.
+Proiect realizat de Cristian Florin Cojocaru (student CR.1 - UCV / FACE). Contribuțiile sunt binevenite ! Dacă aveți sugestii de îmbunătățire a codului sau a documentației, vă rugăm să trimiteți un pull request.
 
 ## Licență
 Acest proiect este licențiat sub [MIT License](LICENSE).
