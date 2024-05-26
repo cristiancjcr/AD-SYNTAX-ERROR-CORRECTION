@@ -41,11 +41,11 @@ Funcția main() este punctul de intrare în program și gestionează interacțiu
 
 În esență, acest cod permite utilizatorului să exploreze conceptul de distanță Levenshtein, care este util în diverse domenii, cum ar fi corectarea ortografică, recunoașterea vocală și bioinformatică.
 
-Un exemplu testat de mine ar fi pentru lungimea 4, selectând apoi opțiunea corectă: **func(book)**. Testând această opțiune corectă cu opțiunea pusă de mine la tastatură **"func(bocker)"**. În urma verificării s-a afișat **3**, s-a înlocuit *'c-ul'* cu *'o'*, iar *'e'* & *'r'* au fost eliminate pentru a ajunge la varianta inițială (corectă).
+Un exemplu testat de mine ar fi pentru lungimea 4, selectând apoi opțiunea 'corectă': **func(book)**. Testând această opțiune 'corectă' cu opțiunea pusă de utilizator la tastatură **"func(bocker)"**. În urma verificării s-a afișat **3**, s-a înlocuit *'c-ul'* cu *'o'*, iar *'e'* & *'r'* au fost eliminate pentru a ajunge la varianta inițială (corectă).
 
 
 ## Utilizare
-Pentru a utiliza acest program, rog descărcarea într-un folder a fișierelor cu numele: **"TEMA_PA.cbp", "TEMA_PA.depend", "TEMA_PA.layout", "main.c", "word_selector.c", "word_selector.h"** *(pentru limbaj C)*. 
+Pentru a utiliza acest program, rog descărcarea într-un folder a fișierelor cu numele: **"TEMA_PA.cbp", "TEMA_PA.depend", "TEMA_PA.layout", "main.c", "word_selector.c", "word_selector.h"** (pentru limbaj C). 
 
 Pentru rularea corectă a programului, trebuie deschis fișierul cu numele **"TEMA_PA.cbp"** ce va deschide întregul program gata de rulat/testat. Programul va solicita mai întâi introducerea lungimii dorite pentru cuvintele pe care doriți să le testați. Programul va afișa o listă generată ce îndeplinește cerința (lungimea N / ex: 5). 
 
