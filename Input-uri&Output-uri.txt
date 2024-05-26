@@ -1,0 +1,51 @@
+Input: up
+Test cu 'upandgo'.
+Output : 5
+
+Input: dog
+Test cu 'doit'
+Output : 2
+
+Input: book
+Test cu 'boking'
+Output : 4
+
+Input: lamp
+Test cu 'lambada'
+Output : 4
+
+Input: lemon
+Test cu 'emo'
+Output : 2
+
+Input: snake
+Test cu 'cacke'
+Output : 3
+
+Input: window
+Test cu 'winner'
+Output : 3
+
+Input: banana
+Test cu 'nabane'
+Output : 3
+
+Input: dragon
+Test cu 'dragosin'
+Output : 2
+
+Input: birthday
+Test cu 'birtdai'
+Output : 2
+
+Input: celebrate
+Test cu 'libra'
+Output : 5
+
+Input: landscape
+Test cu 'escape'
+Output : 4
+
+Input: Inequality
+Test cu 'equalite'
+Output : 3
