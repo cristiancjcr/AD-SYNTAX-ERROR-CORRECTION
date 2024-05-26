@@ -1,2 +1,2 @@
 # PA-Syntax-Error-Correction
-Semester 2 project - Algorithm Desig
+Semester 2 project - Algorithm Design
