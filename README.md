@@ -1,5 +1,5 @@
 # PA-Syntax-Error-Correction
-Semester 2 project - Algorithm Design
+
 # Corector automat de erori de sintaxă în codul sursă
 
 ## Enunțul problemei
