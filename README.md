@@ -41,6 +41,7 @@ Funcția main() este punctul de intrare în program și gestionează interacțiu
 
 În esență, acest cod permite utilizatorului să exploreze conceptul de distanță Levenshtein, care este util în diverse domenii, cum ar fi corectarea ortografică, recunoașterea vocală și bioinformatică.
 
+> [!NOTE]
 Un exemplu testat de mine ar fi pentru lungimea 4, selectând apoi opțiunea 'corectă': **func(book)**. Testând această opțiune 'corectă' cu opțiunea pusă de utilizator la tastatură **"func(bocker)"**. În urma verificării s-a afișat **3**, s-a înlocuit *'c-ul'* cu *'o'*, iar *'e'* & *'r'* au fost eliminate pentru a ajunge la varianta inițială (corectă).
 
 
@@ -53,6 +54,7 @@ Programul va solicita mai întâi introducerea lungimii dorite pentru cuvintele 
 
 O să fiți rugat să alegeți una din opțiunile afișate, prin scrierea la tastatură a opțiunii alese (ex: *'func(lemon)'*). Programul va cere apoi să introduceți la tastatură o variantă 'greșită' a opțiunii alese anterior (ex: *'func(lebron'*). După introducerea datelor, programul va afișa numărul minim de operații pentru a transforma varianta 'greșită' în varianta 'corectă' (ex: *3*).
 
+> [!IMPORTANT]
 Pentru utilizarea programului în limbaj Python, rog descărcarea fișierului: **"main.py"** . Utilizarea programului în **Python** este identică cu cea din **C**.
 
 
