@@ -4,3 +4,4 @@
 void select_words(int num_letters); // Declaratia functiei select_words(), care va fi definita in alt fisier sursa.
 
 #endif // Terminam protectia impotriva includerii multiple.
+//
