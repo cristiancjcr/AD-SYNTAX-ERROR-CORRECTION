@@ -1,6 +1,6 @@
 # PA-Syntax-Error-Correction
 
-## Enunțul problemei
+## Enunțul problemei :
 Avem sarcina de a dezvolta un algoritm pentru un editor de cod avansat care să corecteze automat erorile de sintaxă din limbajele de programare. Se presupune că primim o specificație clară a sintaxei valide a limbajului de programare sub forma unei "reguli" și un fragment de cod care conține erori de sintaxă, adică nu se conformează acelei reguli.
 Obiectivul nostru este să construim un algoritm care să determine numărul minim de operații necesare pentru a transforma fragmentul de cod într-unul care respectă regula dată. Aceste operații pot include substituiri de caractere, inserții sau ștergeri.
 
@@ -14,7 +14,7 @@ Fragmentul de cod dat: „fnuc(myFuncion”
 Obiectivul nostru este să găsim numărul minim de operații necesare pentru a corecta fragmentul de cod astfel încât să se potrivească cu modelul definit de regulă. Aceste operații pot include, de exemplu, inversarea caracterelor „n” și „u” pentru a obține „func”, apoi inserția caracterelor lipsă „t” și „)”, astfel încât să obținem „func(myFunction)” conform regulii date.
 
 
-## Descrierea problemei
+## Descrierea problemei :
 
 În cadrul acestui proiect, trebuie să dezvoltăm un algoritm pentru un editor de cod avansat, având ca scop corectarea automată a erorilor de sintaxă din limbajele de programare. Acest algoritm primește două intrări esențiale: o specificație clară a sintaxei valide a limbajului de programare sub forma unei "reguli" și un fragment de cod care nu respectă această regulă.
 
@@ -24,7 +24,7 @@ Pentru a realiza acest lucru, algoritmul nostru va trebui să compare fragmentul
 Scopul final este de a ajunge la un fragment de cod care respectă regulile de sintaxă, folosind cel mai mic număr posibil de operații. Acest lucru va asigura că fragmentul de cod corectat este funcțional și poate fi folosit corespunzător în cadrul limbajului de programare dat. Prin abordarea acestei probleme, ne propunem să dezvoltăm un algoritm eficient și precis, care să faciliteze procesul de corectare a erorilor de sintaxă din codul sursă, contribuind astfel la îmbunătățirea calității și eficienței dezvoltării software.
 
 
-## Exemplu, idei & soluții
+## Exemplu, idei & soluții :
 Un exemplu clar este chiar cel din enunț, ce prezintă inversarea și apoi inserția unor caractere pentru ca la final să obținem varianta corectă.
 
 Pentru verificarea corectitudinii codului, exemplele ce se pot verifica sunt la alegerea utilizatorului fiind restricționat doar de lungimea cuvintelor, ce trebuie să fie mai mari sau egale cu 2 (ex: eu, tu, up, go ..șamd) putând ca un exemplu să ajungă și la 10 / 11 litere pentru verificare (ex: experiment, decizional, perspective). Dar fi atent ! Orice cuvânt ce are o lungime mai mare devine mai greu de inspectat de utilizator care nu poate verifica în totalitate corectitudinea programului.
@@ -45,7 +45,7 @@ Funcția main() este punctul de intrare în program și gestionează interacțiu
 Un exemplu testat de mine ar fi pentru lungimea 4, selectând apoi opțiunea 'corectă': **func(book)**. Testând această opțiune 'corectă' cu opțiunea pusă de utilizator la tastatură **"func(bocker)"**. În urma verificării s-a afișat **3**, s-a înlocuit *'c-ul'* cu *'o'*, iar *'e'* & *'r'* au fost eliminate pentru a ajunge la varianta inițială (corectă).
 
 
-## Utilizare
+## Utilizare :
 Pentru a utiliza acest program, rog descărcarea într-un folder a fișierelor cu numele: **"TEMA_PA.cbp", "TEMA_PA.depend", "TEMA_PA.layout", "main.c", "word_selector.c", "word_selector.h"** (pentru limbaj C). 
 
 Pentru rularea corectă a programului, trebuie deschis fișierul cu numele **"TEMA_PA.cbp"** ce va deschide întregul program gata de rulat/testat. În caz contrar, deschideți mai întâi **"main.c"**, apoi **"word_selector.c"** urmat de **"word_selector.h"**. 
