@@ -64,4 +64,3 @@ Proiect realizat de **Cristian Florin Cojocaru** (student **CR.1** - **UCV / FAC
 
 ## Licență
 Acest proiect este licențiat sub [MIT License](LICENSE).
-
