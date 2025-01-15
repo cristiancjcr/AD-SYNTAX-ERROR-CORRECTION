@@ -47,3 +47,4 @@ def main():
 if __name__ == "__main__":
     main()  # Apeleaza functia principala daca scriptul este executat direct.
 
+
