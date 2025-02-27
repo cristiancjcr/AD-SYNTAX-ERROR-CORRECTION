@@ -59,7 +59,7 @@ Pentru utilizarea programului în limbaj Python, rog descărcarea fișierului: *
 
 
 ## Contribuții
-Proiect realizat de **Cristian Florin Cojocaru** (student **CR.1** - **UCV / FACE**). Contribuțiile sunt binevenite ! Dacă aveți sugestii de îmbunătățire a codului sau a documentației, vă rog să trimiteți un pull request.
+Proiect realizat de **Cristian Florin Cojocaru** (student **CR.1** - **Universitatea din Craiova / Facultatea de Automatică, Calculatoare şi Electronică**). Contribuțiile sunt binevenite ! Dacă aveți sugestii de îmbunătățire a codului sau a documentației, vă rog să trimiteți un pull request.
 
 
 ## Licență
