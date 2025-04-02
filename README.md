@@ -33,11 +33,11 @@ Pentru a reusi sa ducem la bun sfarsit un astfel de program am folosit 3 functii
 
 **select_words(num_letters)** <-> **levenshtein_distance(s1, s2)** <-> **main( )**. 
 
-Funcția select_words(num_letters) afișează utilizatorului o listă de cuvinte din care acesta poate alege, acele cuvinte având o anumită lungime specificată de num_letters. Cu toate că funcția nu întoarce nimic, ea afișează lista de cuvinte care corespund criteriului de lungime.
+Funcția 'select_words(num_letters)' afișează utilizatorului o listă de cuvinte din care acesta poate alege, acele cuvinte având o anumită lungime specificată de 'num_letters'. Cu toate că funcția nu întoarce nimic, ea afișează lista de cuvinte care corespund criteriului de lungime.
 
-Funcția levenshtein_distance(s1, s2) implementează algoritmul de distanță Levenshtein între două șiruri de caractere s1 și s2. Această distanță reprezintă numărul minim de operații (inserare, ștergere sau înlocuire a unui singur caracter) necesare pentru a transforma un șir în celălalt. Algoritmul funcționează prin utilizarea unei matrice pentru a calcula costurile transformărilor și găsirea căii cu cel mai mic cost.
+Funcția 'levenshtein_distance(s1, s2)' implementează algoritmul de distanță Levenshtein între două șiruri de caractere s1 și s2. Această distanță reprezintă numărul minim de operații (inserare, ștergere sau înlocuire a unui singur caracter) necesare pentru a transforma un șir în celălalt. Algoritmul funcționează prin utilizarea unei matrice pentru a calcula costurile transformărilor și găsirea căii cu cel mai mic cost.
 
-Funcția main() este punctul de intrare în program și gestionează interacțiunea cu utilizatorul. În primul rând, solicită utilizatorului să introducă numărul dorit de litere pentru cuvânt. Apoi, afișează cuvintele disponibile de acea lungime. Utilizatorul este rugat să introducă cuvântul ales și o versiune incorectă a acelui cuvânt. Apoi, calculează și afișează distanța Levenshtein dintre cele două cuvinte introduse.
+Funcția 'main()' este punctul de intrare în program și gestionează interacțiunea cu utilizatorul. În primul rând, solicită utilizatorului să introducă numărul dorit de litere pentru cuvânt. Apoi, afișează cuvintele disponibile de acea lungime. Utilizatorul este rugat să introducă cuvântul ales și o versiune incorectă a acelui cuvânt. Apoi, calculează și afișează distanța Levenshtein dintre cele două cuvinte introduse.
 
 În esență, acest cod permite utilizatorului să exploreze conceptul de distanță Levenshtein, care este util în diverse domenii, cum ar fi corectarea ortografică, recunoașterea vocală și bioinformatică.
 
@@ -55,7 +55,7 @@ Programul va solicita mai întâi introducerea lungimii dorite pentru cuvintele 
 O să fiți rugat să alegeți una din opțiunile afișate, prin scrierea la tastatură a opțiunii alese (ex: *'func(lemon)'*). Programul va cere apoi să introduceți la tastatură o variantă 'greșită' a opțiunii alese anterior (ex: *'func(lebron'*). După introducerea datelor, programul va afișa numărul minim de operații pentru a transforma varianta 'greșită' în varianta 'corectă' (ex: *3*).
 
 > [!IMPORTANT]
-Pentru utilizarea programului în limbaj Python, rog descărcarea fișierului: **"main.py"** . Utilizarea programului în **Python** este identică cu cea din **C**.
+Pentru utilizarea programului în limbaj **Python**, rog descărcarea fișierului: **"main.py"** . Utilizarea programului în **Python** este identică cu cea din **'C'**.
 
 
 ## CONTRIBUȚII
